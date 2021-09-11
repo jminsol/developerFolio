@@ -9,8 +9,8 @@ import CSUEB from "./assets/images/csuebLogo.png";
 import INU from "./assets/images/inuLogo.jpeg";
 import SAILE from "./assets/images/saileLogo.png";
 import CURIOUS5 from "./assets/images/curious5Logo.png";
-import Stock from "./assets/images/stock-psychic.gif";
-import IG from "./assets/images/parse2.gif";
+// import Stock from "./assets/images/stock-psychic.gif";
+// import IG from "./assets/images/parse2.gif";
 import codepathLogo from "./assets/images/codepathLogo.png"
 
 const illustration = {
@@ -223,7 +223,7 @@ const bigProjects = {
   subtitle: "After countless hours of hard work, I am finally able to share my featured projects with you. You can see the details of each project and check the actual codes on my GitHub. The projects are ranged from Machine learning to iOS development.",
   projects: [
     {
-      image: Stock,
+      image: "https://user-images.githubusercontent.com/60868240/132942476-fe4b8d3e-2287-4807-9ca6-93c46efbec87.gif",
       // image: require("./assets/images/stock-psychic.gif"),
       projectName: "Stock Psychic",
       projectDesc: "Predict chosed stocks' closing price based on stock price history, COVID-19 cases and related KOSPI stock prices",
@@ -236,7 +236,7 @@ const bigProjects = {
       ]
     },
     {
-      image: IG,
+      image: "https://user-images.githubusercontent.com/60868240/112913482-8a10d400-90ae-11eb-9cde-189292da51cf.gif",
       // image: require("./assets/images/parse2.gif"),
       projectName: "Parsetagram",
       projectDesc: "Clone Instagram using Parse database",
