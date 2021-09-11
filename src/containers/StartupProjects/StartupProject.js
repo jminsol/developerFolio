@@ -3,7 +3,7 @@ import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-
+// prettier-ignore
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
     var win = window.open(url, "_blank");
