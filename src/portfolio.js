@@ -5,6 +5,13 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import CSUEB from "./assets/images/csuebLogo.png";
+import INU from "./assets/images/inuLogo.jpeg";
+import SAILE from "./assets/images/saileLogo.png";
+import CURIOUS5 from "./assets/images/curious5Logo.png";
+import Stock from "./assets/images/stock-psychic.gif";
+import IG from "./assets/images/parse2.gif";
+import codepathLogo from "./assets/images/codepathLogo.png"
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -114,7 +121,8 @@ const educationInfo = {
   schools: [
     {
       schoolName: "California State University, East Bay",
-      logo: require("./assets/images/csuebLogo.png"),
+      logo: CSUEB,
+      // logo: require("./assets/images/csuebLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "January 2019 - December 2021",
       desc: "Always listed on Dean's List. Took courses about Software Engineering, Artificial Intelligence, Operating System",
@@ -127,7 +135,8 @@ const educationInfo = {
     },
     {
       schoolName: "Incheon National University",
-      logo: require("./assets/images/inuLogo.jpeg"),
+      logo: INU,
+      // logo: require("./assets/images/inuLogo.jpeg"),
       subHeader: "Bachelor of Art in English Language and Literature",
       duration: "March 2013 - January 2019",
       desc: "Participated in Study Abroad to United States. Internship experience in 2018",
@@ -168,7 +177,8 @@ const workExperiences = {
     {
       role: "AI Fullstack Intern",
       company: "Saile, inc",
-      companylogo: require("./assets/images/saileLogo.png"),
+      companylogo: SAILE,
+      // companylogo: require("./assets/images/saileLogo.png"),
       date: "June 2021 – August 2021",
       desc: "Worked on several full stack projects to deliver more functioanlities to end users by collaborating with CTO and VP.",
       descBullets: [
@@ -179,14 +189,16 @@ const workExperiences = {
     {
       role: "Data Scientist Volunteer",
       company: "Curious Five",
-      companylogo: require("./assets/images/curious5Logo.png"),
+      companylogo: CURIOUS5,
+      // companylogo: require("./assets/images/curious5Logo.png"),
       date: "May 2021 – Present",
       desc: "Brainstormed the use cases for AI tutor and designed the intent and utterance for NLP using AWS Lex/Polly."
     },
     {
       role: "Learning Assistant for STEM",
       company: "CSU East Bay",
-      companylogo: require("./assets/images/csuebLogo.png"),
+      companylogo: CSUEB,
+      // companylogo: require("./assets/images/csuebLogo.png"),
       date: "Aug 2019 – Present",
       descBullets: ["Teach 40 students in Business Algebra and Python alongside professors, instructors, and teaching assistants.",
       "Use GitHub Classroom and PyCharm to check students’ assignments and help them to debug the codes.",
@@ -200,7 +212,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -211,7 +223,8 @@ const bigProjects = {
   subtitle: "After countless hours of hard work, I am finally able to share my featured projects with you. You can see the details of each project and check the actual codes on my GitHub. The projects are ranged from Machine learning to iOS development.",
   projects: [
     {
-      image: require("./assets/images/stock-psychic.gif"),
+      image: Stock,
+      // image: require("./assets/images/stock-psychic.gif"),
       projectName: "Stock Psychic",
       projectDesc: "Predict chosed stocks' closing price based on stock price history, COVID-19 cases and related KOSPI stock prices",
       footerLink: [
@@ -223,7 +236,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/parse2.gif"),
+      image: IG,
+      // image: require("./assets/images/parse2.gif"),
       projectName: "Parsetagram",
       projectDesc: "Clone Instagram using Parse database",
       footerLink: [
@@ -250,7 +264,8 @@ const achievementSection = {
       title: "Codepath iOS Development",
       subtitle:
         "Took a 2021 Spring iOS developemnt and passed with Honor",
-      image: require("./assets/images/codepathLogo.png"),
+      image: codepathLogo,
+      // image: require("./assets/images/codepathLogo.png"),
       footerLink: [
         {
           name: "Certification",
@@ -262,7 +277,8 @@ const achievementSection = {
       title: "Dean's List",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/csuebLogo.png"),
+      image: CSUEB,
+        // image: require("./assets/images/csuebLogo.png"),
       footerLink: [
         {
           name: "2019 Spring Award",
@@ -350,7 +366,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Looking for a passionate entry SWE or just want to say hi? My Inbox is open for all.",
-  number: "+1-5104990137",
+  number: "+1-510 499 0137",
   email_address: "jminsol05250@gmail.com"
 };
 
