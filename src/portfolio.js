@@ -1,17 +1,8 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
-// Summary And Greeting Section
-// prettier-ignore
-
 import emoji from "react-easy-emoji";
 import CSUEB from "./assets/images/csuebLogo.png";
 import INU from "./assets/images/inuLogo.jpeg";
 import SAILE from "./assets/images/saileLogo.png";
 import CURIOUS5 from "./assets/images/curious5Logo.png";
-// import Stock from "./assets/images/stock-psychic.gif";
-// import IG from "./assets/images/parse2.gif";
 import codepathLogo from "./assets/images/codepathLogo.png"
 
 const illustration = {
@@ -28,9 +19,7 @@ const greeting = {
     "https://drive.google.com/file/d/1XXIJ0NkpU7LhMDwqXossMroGlIFdKP2V/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
-
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/jminsol",
   linkedin: "https://www.linkedin.com/in/jminsol/",
@@ -41,9 +30,7 @@ const socialMediaLinks = {
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
-
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
@@ -58,10 +45,8 @@ const skillsSection = {
       "⚡ Integration of third party services such as AWS / Parse / HASURA"
     )
   ],
-
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "python",
@@ -116,7 +101,6 @@ https://fontawesome.com/icons?d=gallery */
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -148,9 +132,7 @@ const educationInfo = {
     }
   ]
 };
-
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -227,7 +209,7 @@ const bigProjects = {
       image: "https://user-images.githubusercontent.com/60868240/132942476-fe4b8d3e-2287-4807-9ca6-93c46efbec87.gif",
       // image: require("./assets/images/stock-psychic.gif"),
       projectName: "Stock Psychic",
-      projectDesc: "Predict chosed stocks' closing price based on stock price history, COVID-19 cases and related KOSPI stock prices",
+      projectDesc: "Predict chosen stocks' closing price based on stock price history, COVID-19 cases and related KOSPI stock prices",
       footerLink: [
         {
           name: "Visit Github",
