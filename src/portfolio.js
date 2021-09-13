@@ -209,7 +209,7 @@ const bigProjects = {
       image: "https://user-images.githubusercontent.com/60868240/132942476-fe4b8d3e-2287-4807-9ca6-93c46efbec87.gif",
       // image: require("./assets/images/stock-psychic.gif"),
       projectName: "Stock Psychic",
-      projectDesc: "Predict chosen stocks' closing price based on stock price history, COVID-19 cases and related KOSPI stock prices",
+      projectDesc: "Predict chosen stocks' closing prices based on stock price history, COVID-19 cases and related KOSPI stock prices",
       footerLink: [
         {
           name: "Visit Github",
@@ -259,7 +259,7 @@ const achievementSection = {
     {
       title: "Dean's List",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "I have achieved academic distinction in any academic semester, evidenced by a grade point average of 3.50 or higher in 9 units or more, in addition to any units graded CR/NC.",
       image: CSUEB,
         // image: require("./assets/images/csuebLogo.png"),
       footerLink: [
